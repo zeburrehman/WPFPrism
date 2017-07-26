@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeftMenuModule", "LeftMenuM
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MainContentModule", "MainContentModule\MainContentModule.csproj", "{172F251F-B831-4060-B043-9764F2711A44}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfPlayground.Infrastructure", "WpfPlayground.Infrastructure\WpfPlayground.Infrastructure.csproj", "{C90BA7A1-57D2-413B-BA43-E4A861294712}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{172F251F-B831-4060-B043-9764F2711A44}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{172F251F-B831-4060-B043-9764F2711A44}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{172F251F-B831-4060-B043-9764F2711A44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C90BA7A1-57D2-413B-BA43-E4A861294712}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C90BA7A1-57D2-413B-BA43-E4A861294712}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C90BA7A1-57D2-413B-BA43-E4A861294712}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C90BA7A1-57D2-413B-BA43-E4A861294712}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

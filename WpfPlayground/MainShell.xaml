@@ -12,7 +12,8 @@
             <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
         <ContentControl Name="LeftMenu" 
-                        prism:RegionManager.RegionName="LeftMenu"/>
+                        prism:RegionManager.RegionName="LeftMenu"
+                        VerticalAlignment="Center"/>
         <ContentControl Name="MainContent"
                         prism:RegionManager.RegionName="MainContent"
                         Grid.Column="1" />
