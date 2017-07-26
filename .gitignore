@@ -30,3 +30,7 @@ _ReSharper*/
 .vs/
 #Nuget packages folder
 packages/
+
+/MainContentModule/bin/*
+/MainContentModule/obj/*
+.vs/WpfPlayground/v15/.suo
