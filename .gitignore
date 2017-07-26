@@ -31,6 +31,3 @@ _ReSharper*/
 #Nuget packages folder
 packages/
 
-/MainContentModule/bin/*
-/MainContentModule/obj/*
-.vs/WpfPlayground/v15/.suo
