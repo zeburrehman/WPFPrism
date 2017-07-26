@@ -7,6 +7,7 @@ using System.ComponentModel.Composition;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Input;
 using WpfPlayground.Infrastructure.Events;
 
 namespace LeftMenuModule.ViewModels
@@ -24,9 +25,9 @@ namespace LeftMenuModule.ViewModels
             set { SetProperty(ref _message, value); }
         }
 
-        private DelegateCommand _addMessage;
+        private ICommand _addMessage;
 
-        public DelegateCommand AddMessage
+        public ICommand AddMessage
         {
             get { return _addMessage; }
             set { _addMessage = value; }
