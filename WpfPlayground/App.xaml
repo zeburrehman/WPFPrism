@@ -1,8 +1,20 @@
 ﻿<Application x:Class="WpfPlayground.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:WpfPlayground">
+             xmlns:local="clr-namespace:WpfPlayground"
+             xmlns:styles="clr-namespace:WpfPlayground.Infrastructure.Events;assembly=WpfPlayground.Infrastructure">
     <Application.Resources>
-         
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/WpfPlayground.Infrastructure;component/Style/Themes/LightColors.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/WpfPlayground.Infrastructure;component/Style/CommonStyle.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+
+            <Style TargetType="{x:Type Button}" BasedOn="{StaticResource PGButtonStyle}"/>
+
+        </ResourceDictionary>
     </Application.Resources>
+    
+    
+    
 </Application>

@@ -122,6 +122,10 @@
       <Project>{172f251f-b831-4060-b043-9764f2711a44}</Project>
       <Name>MainContentModule</Name>
     </ProjectReference>
+    <ProjectReference Include="..\WpfPlayground.Infrastructure\WpfPlayground.Infrastructure.csproj">
+      <Project>{c90ba7a1-57d2-413b-ba43-e4a861294712}</Project>
+      <Name>WpfPlayground.Infrastructure</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
