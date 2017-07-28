@@ -2,11 +2,6 @@
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                     xmlns:local="clr-namespace:WpfPlayground.Infrastructure.Style">
     
-    <!--<ResourceDictionary.MergedDictionaries>
-        <ResourceDictionary Source="pack://application:,,,/Style/Themes/Fonts.xaml"/>
-        <ResourceDictionary Source="pack://application:,,,/Style/Themes/DarkColors.xaml"/>
-    </ResourceDictionary.MergedDictionaries>-->
-    
     <Style x:Key="PGButtonStyle" 
            TargetType="{x:Type Button}">
         <Setter Property="Background"
@@ -14,5 +9,5 @@
         <Setter Property="Foreground"
                 Value="{DynamicResource ButtonForegroundColorBrush}"/>
     </Style>
-           
+    
 </ResourceDictionary>

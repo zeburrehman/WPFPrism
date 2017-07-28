@@ -6,7 +6,11 @@
     <Application.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
-                <ResourceDictionary Source="pack://application:,,,/WpfPlayground.Infrastructure;component/Style/Themes/LightColors.xaml" />
+                <ResourceDictionary x:Name="ThemeDictionary">
+                    <ResourceDictionary.MergedDictionaries>
+                        <ResourceDictionary Source="pack://application:,,,/WpfPlayground.Infrastructure;component/Style/Themes/LightColors.xaml" />
+                    </ResourceDictionary.MergedDictionaries>
+                </ResourceDictionary>
                 <ResourceDictionary Source="pack://application:,,,/WpfPlayground.Infrastructure;component/Style/CommonStyle.xaml" />
             </ResourceDictionary.MergedDictionaries>
 
@@ -14,7 +18,5 @@
 
         </ResourceDictionary>
     </Application.Resources>
-    
-    
     
 </Application>
