@@ -4,6 +4,7 @@ using Prism.Mef;
 using System.ComponentModel.Composition.Hosting;
 using System.Reflection;
 using System.Windows;
+using WpfPlayground.Views;
 
 namespace WpfPlayground
 {

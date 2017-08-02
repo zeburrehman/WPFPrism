@@ -78,7 +78,8 @@
     <Compile Include="BootStrapper.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MainShell.xaml.cs">
+    <Compile Include="ViewModels\MainShellViewModel.cs" />
+    <Compile Include="Views\MainShell.xaml.cs">
       <DependentUpon>MainShell.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -108,7 +109,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Page Include="MainShell.xaml">
+    <Page Include="Views\MainShell.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -126,6 +127,9 @@
       <Project>{c90ba7a1-57d2-413b-ba43-e4a861294712}</Project>
       <Name>WpfPlayground.Infrastructure</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Model\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

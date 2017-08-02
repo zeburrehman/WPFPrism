@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.Composition;
 using System.Windows;
 
-namespace WpfPlayground
+namespace WpfPlayground.Views
 {
     /// <summary>
     /// Interaction logic for MainShell.xaml
@@ -12,6 +12,11 @@ namespace WpfPlayground
         public MainShell()
         {
             InitializeComponent();
+        }
+
+        private void ListBox_SelectionChanged(object sender, System.Windows.Controls.SelectionChangedEventArgs e)
+        {
+
         }
     }
 }
