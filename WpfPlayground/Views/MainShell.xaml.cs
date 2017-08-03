@@ -2,7 +2,7 @@
 using System.ComponentModel.Composition;
 using System.Windows;
 
-namespace WpfPlayground
+namespace WpfPlayground.Views
 {
     /// <summary>
     /// Interaction logic for MainShell.xaml
@@ -27,5 +27,10 @@ namespace WpfPlayground
             changeTheme();
         }
 
+
+        private void ListBox_SelectionChanged(object sender, System.Windows.Controls.SelectionChangedEventArgs e)
+        {
+
+        }
     }
 }
