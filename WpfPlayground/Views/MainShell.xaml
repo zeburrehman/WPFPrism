@@ -50,6 +50,7 @@
                     </i:EventTrigger>
                 </i:Interaction.Triggers>
             </ListBox>
+
         </StackPanel>
         
     </Grid>

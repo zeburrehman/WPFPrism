@@ -78,7 +78,14 @@
     <Compile Include="BootStrapper.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ViewModels\InteractionWindowViewModel.cs" />
     <Compile Include="ViewModels\MainShellViewModel.cs" />
+    <Compile Include="Views\CustomPopup.xaml.cs">
+      <DependentUpon>CustomPopup.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\InteractionWindow.xaml.cs">
+      <DependentUpon>InteractionWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\MainShell.xaml.cs">
       <DependentUpon>MainShell.xaml</DependentUpon>
     </Compile>
@@ -109,6 +116,14 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Page Include="Views\CustomPopup.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\InteractionWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Views\MainShell.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

@@ -12,7 +12,7 @@ namespace WpfPlayground
     {
         protected override DependencyObject CreateShell()
         {
-            return this.Container.GetExportedValue<MainShell>();
+            return this.Container.GetExportedValue<InteractionWindow>();
         }
 
         protected override void InitializeShell()
